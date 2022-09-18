@@ -1,4 +1,4 @@
-import { render } from "@testing-library/react";
+
 import React, { Component } from "react";
 import { nanoid } from 'nanoid';
 import style from 'components/Phonebook/phonebook.module.css'
@@ -74,6 +74,3 @@ numberId = nanoid();
 }
 export default Phonebook;
 
-Phonebook.propTypes = {
-  
-}

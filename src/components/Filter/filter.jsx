@@ -1,4 +1,4 @@
-import { render } from "@testing-library/react";
+
 import style from 'components/Filter/filter.module.css'
 import PropTypes from 'prop-types';
 export const FilterContacts = ({ filter, handleChange }) => (

@@ -17,9 +17,9 @@ export default function ContactList({ items, removeContacts }) {
 ContactList.prototype = {
      items: PropTypes.arrayOf(
          PropTypes.shape({
-             id: PropTypes.string,
-             number: PropTypes.string,
-             name: PropTypes.string,
+             id: PropTypes.string.isRequired,
+             number: PropTypes.string.isRequired,
+             name: PropTypes.string.isRequired,
              
         })).isRequired
 
