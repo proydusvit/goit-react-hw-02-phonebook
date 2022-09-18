@@ -2,7 +2,7 @@
 import React, { Component } from "react";
 import { nanoid } from 'nanoid';
 import style from 'components/Phonebook/phonebook.module.css'
-import PropTypes from 'prop-types';
+
 
 class Phonebook extends Component {
 state = {
